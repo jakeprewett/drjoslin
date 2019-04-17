@@ -1,4 +1,6 @@
 body,
+
+
 figure {/*one m is about 15 pizels*/
   margin: 0; /*all sides*/
   margin: 5em 0 5em 2em; /*top right bottom left*/
@@ -21,7 +23,7 @@ ul {
   margin-bottom: 0;
 }
 html {
-  background-color: #110;
+  background-color: #CCCCCC;
   font: 100%/1.15 serif/#123;
 }
 
@@ -37,16 +39,21 @@ html {
   font-family: Georgia, "Times New Roman", serif;
 }
 */
-li {
-  font-size: 2em;
-  padding: 1px;
-  size: 1em;
 
 }
-link { color: #FF0000; }
+link { color: #CC6666; }
+
+a:link, a:visited {
+  background-color: #666666;
+  color: #430102;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: center;
+}
 
 body {
-  background-color: #333;
+  background-color: #CCCCCC;
   padding: 3em;
   border: 1em dashed #400;
   border-top: 1em solid #400;
